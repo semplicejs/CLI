@@ -1,0 +1,26 @@
+{
+  "name": "semplice-cli",
+  "version": "0.0.12",
+  "description": "CLI for micro framework -> Semplice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "semplice": "./index.js"
+  },
+  "keywords": ["semplice","nodejs","node","framework","micro"],
+  "author": "Luis Vilches",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semplicejs/CLI.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.1",
+    "node-cmd": "^3.0.0"
+  }
+}
